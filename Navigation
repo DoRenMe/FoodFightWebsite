@@ -19,6 +19,12 @@ function myFunction() {
 }
 </script>
 ----------------------------------------------------------------------------------------------------------
+  Body {
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+  }
+  
 #navbar {
   overflow: hidden;
   background-color: #bdd152;
