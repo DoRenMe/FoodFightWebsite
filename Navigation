@@ -1,0 +1,27 @@
+<!--Navigation links-->
+<div id="navbar">
+  <a class="navlink" href="FoodtestMain.html">Home</a>
+  <a class="navlink" href="Foodinfo.html">Resources</a>
+  <a class="navlink" href="FoodPedia.html">Foodpedia</a>
+</div>
+
+--------------------------------------------------------------------------------------------------------
+#navbar {
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+}
+
+/* Navbar links */
+#navbar a {
+  display: block;
+  color: #ffffff;
+  font-family: 'Amiko', sans-serif;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.navlink{
+  float: left;
+}
