@@ -1,13 +1,27 @@
 <!--Navigation links-->
 <div id="navbar">
+  <a class="LogoBar" href="home">Food Fight</a>
   <a class="navlink" href="FoodtestMain.html">Home</a>
   <a class="navlink" href="Foodinfo.html">Resources</a>
   <a class="navlink" href="FoodPedia.html">Foodpedia</a>
 </div>
 
---------------------------------------------------------------------------------------------------------
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+----------------------------------------------------------------------------------------------------------
 #navbar {
   overflow: hidden;
+  background-color: #bdd152;
   width: 100%;
   top: 0px;
 }
@@ -22,6 +36,26 @@
   text-decoration: none;
 }
 
+#navbar a:hover {
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.LogoBar{
+  font-size:20px;
+  float: left;
+}
+
 .navlink{
   float: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
