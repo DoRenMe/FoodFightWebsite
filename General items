@@ -1,1 +1,14 @@
-
+  .header{
+    display: block;
+    width: 100%;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  --------------------------------------------------
+  <!--Header-->
+<div class="header">
+  <h2>Hello!</h2>
+</div>
+ 
