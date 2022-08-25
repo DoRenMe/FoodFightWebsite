@@ -1,10 +1,13 @@
   .header{
     display: block;
     width: 100%;
-    background-color: red;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #DB4701;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 25px;
+    color: white;
   }
   --------------------------------------------------
   <!--Header-->
