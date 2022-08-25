@@ -13,6 +13,11 @@ table{
   width:100%;
  }
 
+.footerSpacer{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .footerlinks{
   text-align:left;
   padding-left:100px;
@@ -20,47 +25,38 @@ table{
  }
 
 -----------------------------------------------------------------------------------------------------------------
- <Footer>
+<Footer>
 <table class="footerlinks">
   <tr>
-    <th>cata1</th>
-    <th>cata2</th>
-    <th>cata3</th>
-    <th>cata4</th>
-    <th><br></th>
-    <th>About us</th>
+    <th class="footerSpacer">cata1</th>
+    <th class="footerSpacer">cata2</th>
+    <th class="footerSpacer">cata3</th>
+    <th rowspan="5" class="footerSpacer"><br></th>
+    <th class="footerSpacer">About us</th>
   </tr>
   <tr>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
   </tr>
   <tr>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
   </tr>
   <tr>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
   </tr>
   <tr>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
-    <td><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
+    <td class="footerSpacer"><a target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">link</a></td>
   </tr>
 </table>
 <br>
