@@ -1,17 +1,18 @@
 /*Footer settings*/
 Footer {
   display:block;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding-top: 18px;
+  padding-bottom: 2px;
   bottom: 0;
   width: 100%;
-  background-color: grey;
+  font-family: 'Amiko', sans-serif;
+  background-color: #bdd152;
   color: rgb(0, 0, 0);
 }
 
 table{
   width:100%;
- }
+}
 
 .footerSpacer{
   padding-left: 20px;
@@ -20,14 +21,26 @@ table{
 
 .footerlinks{
   text-align:left;
-  padding-left:100px;
-  padding-right: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+
+ .copyright {
+  display:block;
+  font-family: 'Amiko', sans-serif;
+  bottom: 0;
+  width: 100%;
+  background-color: #7e9e4c;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top:2px;
  }
 
 -----------------------------------------------------------------------------------------------------------------
 <Footer>
 <table class="footerlinks">
   <tr>
+    <th rowspan="5" class="footerSpacer"><br></th>
     <th class="footerSpacer">cata1</th>
     <th class="footerSpacer">cata2</th>
     <th class="footerSpacer">cata3</th>
@@ -62,3 +75,7 @@ table{
 <br>
 <br>
 </Footer>
+<footer class="copyright">
+  <p>Food Fighters CC Lauren Dorrell All Rights Reserved</p>
+</footer>
+
