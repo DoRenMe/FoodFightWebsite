@@ -1,16 +1,36 @@
-  .header{
-    display: block;
-    width: 100%;
-    background-color: #DB4701;
-    padding-top: 2px;
-    padding-bottom: 1px;
-    text-align: center;
-    font-family: 'Amiko', sans-serif;
-    font-size: 22px;
-    color: white;
+.relatedContentBar{
+  border: solid 2px #FF882D;
+  background:#FF882D;
+  border-collapse: collapse;
+  font-family: 'Amiko', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.relatedBarAll {
+  padding-top: 0;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.topPop{
+  background-color:#FF882D;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
   --------------------------------------------------
-  <!--Header-->
-<div class="header">
-  <h2>Hello!</h2>
-</div>
- 
+<table class="relatedContentBar">
+<tr>
+  <th class="topPop" colspan="4">Related content</th>
+</tr>
+<tr>
+  <td class="relatedBarAll"><a target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;"></a></td>
+  <td class="relatedBarAll"><a target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;"></a></td>
+  <td class="relatedBarAll"><a target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;"></a></td>
+  <td class="relatedBarAll"><a target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;"></a></td>
+</tr>
+</table>
+<br>
