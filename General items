@@ -1,9 +1,13 @@
 .relatedContentBar{
   border: solid 2px #FF882D;
-  background:#FF882D;
+  background: white;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
+}
+
+.relatedBarAll:hover{
+  background: #FF882D;
 }
 
 .relatedBarAll {
@@ -25,10 +29,6 @@
   text-decoration: none;
   font-size: 12px;
   font-family: 'Jost', sans-serif;
-}
-
-a.relatedLink:hover{
-  color: #DB4701;
 }
 
 .relatedLink:visited{
