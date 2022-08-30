@@ -27,7 +27,7 @@
   font-family: 'Jost', sans-serif;
 }
 
-.relatedLink:hover{
+a.relatedLink:hover{
   color: #DB4701;
 }
 
@@ -35,6 +35,9 @@
   color:black;
 }
 
+a {
+  text-decoration:none;
+}
   --------------------------------------------------
 <table class="relatedContentBar">
 <tr>
