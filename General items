@@ -1,61 +1,42 @@
-.relatedContentBar{
-  border: solid 2px #FF882D;
-  background: white;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.relatedBarAll:hover{
-  background: #FF882D;
-}
-
-.relatedBarAll {
-  padding-top: 0;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-decoration: none;
-}
-
-.relatedBarTitle{
-  margin: 0px;
-  font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.relatedBarText{
-  margin: 0px;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: 'Jost', sans-serif;
-}
-
-.relatedLink:visited{
-  color:black;
-}
-
-a {
-  text-decoration:none;
-}
+    /*General content collapsible box*/
+   /* Style the button that is used to open and close the collapsible content */
+  .collapsible {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 64%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active{
+    background-color: grey;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    font-family: 'Amiko', sans-serif;
+    display: none;
+    overflow: hidden;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 64%;
+    border: none;
+    background-color: grey;
+    margin: auto;
+  }
+  
   --------------------------------------------------
-<table class="relatedContentBar">
-<tr>
-  <th class="topPop" colspan="4">Related content</th>
-</tr>
-<tr>
-  <td class="relatedBarAll"><a class="relatedLink" target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;">
-  <p class="relatedBarTitle">title</p><p class="relatedBarText">other text</p></a>
-  </td>
-  <td class="relatedBarAll"><a class="relatedLink" target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;">
-  <p class="relatedBarTitle">title</p><p class="relatedBarText"> other text</p></a>
-  </td>
-  <td class="relatedBarAll"><a class="relatedLink" target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;">
-  <p class="relatedBarTitle">title</p><p class="relatedBarText"> other text</p></a>
-  </td>
-  <td class="relatedBarAll"><a class="relatedLink" target="blank" href="https://www.westlakegirls.school.nz/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:210px;">
-  <p class="relatedBarTitle">title</p><p class="relatedBarText"> other text</p></a>
-  </td>
-</tr>
-</table>
+<!--Collapsible box for content-->
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum...</p>
+</div>
 <br>
