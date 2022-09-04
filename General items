@@ -1,79 +1,57 @@
-   /*General content collapsible box*/
-   /* Style the button that is used to open and close the collapsible content */
-   .collapsible {
-    background-color: #C7D5B4;
-    color: black;
-    cursor: pointer;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 64%;
-    border: none;
+  .grid-container {
+    display: grid;
+    gap: 30px 40px;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 0px;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+  
+  .grid-item {
+    background-color: darkgrey;
+    border: 1px white;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    font-size: 30px;
     text-align: left;
-    outline: none;
-    font-size: 20px;
-    margin: auto;
-    display: flex;
+    display: block;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active{
-    background-color: #C7D5B4;
+  .foodItem:visited{
     color: black;
   }
-  
-  .collapsible:hover {
-    background-color: #7e9e4c;
-    color: white;
-  }
 
-  .collapseTitle{
+  .foodCardTitle{
+    margin: 0px;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
   }
   
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    font-family: 'Amiko', sans-serif;
-    display: none;
-    overflow: hidden;
-    padding-bottom: 10px;
-    width: 64%;
-    border: none;
-    background-color: #C7D5B4;
-    margin: auto;
-  }
-
-  .collapsible:after {
-    content: '\25BC'; /* Unicode character for "plus" sign (+) */
-    font-size: inherit;
-    padding-left: 5px;
-    padding-top: 5px;
+  .foodCardCata{
+    margin: 0px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+    padding-left: 10px;
   }
   
-  .active:after {
-    content: "\25B2"; /* Unicode character for "minus" sign (-) */
-    padding-left: 5px;
-    padding-top: 5px;
-  }
-
-.CWords{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 2px;
-  padding-bottom: 10px;
-  color: black;
-  font-size: 20px;
-}
-
-.boxPadding{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
   --------------------------------------------------
-<!--Collapsible box for content-->
-<button type="button" class="collapsible"><div class="collapseTitle"><b>Storage</b></div><br></button>
-<div class="content">
-  <div class="CWords">
-  <p class="boxPadding">Lorem ipsum erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+<!--Foodpedia - Food items -->
+<div class="grid-container">
+  <div class="grid-item">
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
   </div>
 </div>
+<br>
