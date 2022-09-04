@@ -1,56 +1,59 @@
-  .grid-container {
-    display: grid;
-    gap: 30px 40px;
-    grid-template-columns: auto auto auto;
-    background-color: white;
-    padding: 0px;
-    margin-left: 18%;
-    margin-right: 18%;
-  }
-  
-  .grid-item {
-    background-color: #C7D5B4;
-    border: 1px white;
-    padding: 0px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    text-align: left;
-    display: block;
-  }
-  
-  .grid-item:hover {
-    background-color: #7e9e4c;
-    border: 1px white;
-  }
-  
-  .foodItem:visited{
-    color: black;
-  }
-  .foodItem:hover{
-    color:white;
-  }
-  
-  .foodCardTitle{
-    margin: 0px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 10px;
-  }
-  
-  .foodCardCata{
-    margin: 0px;
-    text-decoration: none;
-    font-size: 12px;
+  /*FoodPedia popular foods table*/
+    .popularSearch{
+    border: solid 2px darkgrey;
     font-family: 'Jost', sans-serif;
-    padding-left: 10px;
+    margin-top: 15px;
+    width:64%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
+  .popular{
+    padding: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+  }
+  .topPop{
+    background-color:darkgrey;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+  }
 
   --------------------------------------------------
-<!--Foodpedia - Food items -->
-<div class="grid-container">
-  <div class="grid-item">
-    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%; height:200px; object-fit: cover;">
-      <p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
-  </div>
+<!--Foodpedia table IMPORTANT-->
+<table class="popularSearch">
+<tr class="topPop">
+    <th class="topPop" colspan="4">Popular</th>
+</tr>
+<tr>
+  <td class="popular"><a href="https://cloakbrand.com/">Apple</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Tomato</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Milk</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Pork</a></td>
+</tr>
+<tr>
+  <td class="popular"><a href="https://cloakbrand.com/">Banana</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Carrot</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Cream</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Chicken</a></td>
+</tr>
+<tr>
+  <td class="popular"><a href="https://cloakbrand.com/">Orange</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Lettuce</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Yogurt</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Fish</a></td>
+</tr>
+<tr>
+  <td class="popular"><a href="https://cloakbrand.com/">Avocado</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Onion</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Cheese</a></td>
+  <td class="popular"><a href="https://cloakbrand.com/">Beef</a></td>
+</tr>
+</table>
 <br>
