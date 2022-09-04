@@ -9,19 +9,27 @@
   }
   
   .grid-item {
-    background-color: darkgrey;
+    background-color: #C7D5B4;
     border: 1px white;
-    padding-top: 180px;
-    padding-bottom: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
     font-size: 30px;
     text-align: left;
     display: block;
   }
   
+  .grid-item:hover {
+    background-color: #7e9e4c;
+    border: 1px white;
+  }
+  
   .foodItem:visited{
     color: black;
   }
-
+  .foodItem:hover{
+    color:white;
+  }
+  
   .foodCardTitle{
     margin: 0px;
     font-size: 25px;
@@ -42,16 +50,20 @@
 <!--Foodpedia - Food items -->
 <div class="grid-container">
   <div class="grid-item">
-    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
+    <a class="foodItem" href="https://cloakbrand.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">other text</p><p class="foodCardTitle">title</p></a>
   </div>
 </div>
 <br>
