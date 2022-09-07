@@ -1,17 +1,26 @@
 <!--Navigation links-->
 <div id="navbar">
-  <img src="log2.png" class="logo">
+  <img src="Assets/log2.png" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
-  <a class="navlink" href="FoodtestMain.html"><span class="material-symbols-sharp">home</span><br>Home</a>
-  <a class="navlink" href="Foodinfo.html"><span class="material-symbols-sharp">menu_book</span><br>Resources</a>
-  <a class="navlink" href="FoodPedia.html"><span class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="index.html"><span style="color:#617B38" class="material-symbols-sharp">home</span><br>Home</a>
+  <div class="dropdown">
+    <a class="navlink" href="Foodenviro.html"><span style="color:#617B38" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <div class="dropdown-content">
+      <a href="Foodenviro.html">Economy</a>
+      <a href="Foodenviro.html">Environment</a>
+      <a href="Foodenviro.html">Expiry dates</a>
+    </div>
+  </div> 
+  <a class="navlink" href="FoodPedia.html"><span style="color:#617B38" class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span style="color:#617B38" class="material-symbols-sharp">cooking</span><br>Recipes</a>
 </div>
 
+<!--Navigation Javascript-->
 <script>
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {NavFunction()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
-function myFunction() {
+function NavFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -35,30 +44,72 @@ h6 {
   }
   
   /*-------------------------------------------------------------------------------------------------------*/
-  /*navbar settings*/
-  /* Style the navbar */
+    /*navbar settings*/
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #bdd152;
+      min-width: 160px;
+      z-index: 1;
+      margin-top: 86.5px;
+    }
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .dropdown-content a {
+      float: none;
+      padding: 16px 8px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #bdd152;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    /* Style the navbar */
   #navbar {
-    overflow: hidden;
+    position: fixed;
     background-color: #bdd152;
     width: 100%;
     top: 0px;
+    min-height: 48px;
+    z-index: 10; /*IMPORTANT - button fix for the button clipping through the navigation*/
   }
-  
-  /* Navbar links */
+    
+    /* Navbar links */
   #navbar a {
     display: block;
     color: #ffffff;
-    font-family: 'Amiko', sans-serif;
+    font-family: 'Jost', sans-serif;
     text-align: center;
-    padding: 24px;
+    padding: 20px;
     text-decoration: none;
   }
-  
+    
   #navbar a:hover {
     color:rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-  }
-  
+    background-color: #DB4701;
+    }
+    
+
   .logo {
     float: left;
     padding-left: 50px;
@@ -66,35 +117,20 @@ h6 {
     width: 60px;
     height: 60px;
   }
+  
   .LogoBar{
     font-size:30px;
     float: left;
   }
-  
+    
   .navlink{
     float: left;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    }
+    
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+    }
   
-  .sticky + .content {
-    padding-top: 60px;
-  }
-.navlink{
-  float: left;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
