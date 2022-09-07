@@ -8,15 +8,16 @@
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-color: grey;
+  background-color: #FF882D;
   color: white; 
+  border-radius: 10px;
   cursor: pointer;
   padding: 15px; 
   font-size: 18px; 
 }
 
 #myBtn:hover {
-  background-color: darkgrey;
+  background-color: #DB4701;
 }
 -----------------------------------------------------------------------------
 
