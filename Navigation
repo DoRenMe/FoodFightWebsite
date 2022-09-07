@@ -2,17 +2,17 @@
 <div id="navbar">
   <img src="Assets/log2.png" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
-  <a class="navlink" href="index.html"><span style="color:#617B38" class="material-symbols-sharp">home</span><br>Home</a>
+  <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
-    <a class="navlink" href="Foodenviro.html"><span style="color:#617B38" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <a class="navlink" href="Foodenviro.html"><span id="NavCon" class="material-symbols-sharp">menu_book</span><br>Resources</a>
     <div class="dropdown-content">
       <a href="Foodenviro.html">Economy</a>
       <a href="Foodenviro.html">Environment</a>
       <a href="Foodenviro.html">Expiry dates</a>
     </div>
   </div> 
-  <a class="navlink" href="FoodPedia.html"><span style="color:#617B38" class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
-  <a class="navlink" href="RecipeSearch.html"><span style="color:#617B38" class="material-symbols-sharp">cooking</span><br>Recipes</a>
+  <a class="navlink" href="FoodPedia.html"><span id="NavCon" class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span id="NavCon" class="material-symbols-sharp">cooking</span><br>Recipes</a>
 </div>
 
 <!--Navigation Javascript-->
@@ -34,7 +34,7 @@ h6 {
   color: white;
   font-family: 'Amiko', sans-serif;
   margin-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 27px;
 }
   
   Body {
@@ -49,7 +49,7 @@ h6 {
       display: none;
       position: absolute;
       background-color: #bdd152;
-      min-width: 160px;
+      max-width: 117px;
       z-index: 1;
       margin-top: 86.5px;
     }
@@ -109,11 +109,18 @@ h6 {
     background-color: #DB4701;
     }
     
+#NavCon{
+  color: #617B38;
+    }
+#NavCon:hover{
+  transition: 0.2s;
+  color: white;
+}
 
   .logo {
     float: left;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 17px;
     width: 60px;
     height: 60px;
   }
@@ -121,6 +128,8 @@ h6 {
   .LogoBar{
     font-size:30px;
     float: left;
+    padding-right: 15px;
+
   }
     
   .navlink{
@@ -133,4 +142,5 @@ h6 {
     top: 0;
     width: 100%;
     }
+  
   
