@@ -1,3 +1,4 @@
+<style>
 .grid-container2{
   display: grid;
   gap: 2% 2%;
@@ -12,7 +13,7 @@
   display: flex;
 }
 .ButtonBlip{
-  background-color: darkgrey;
+  background-color: #FF882D;
   color:white;
   border: none;
   padding: 10px;
@@ -29,7 +30,7 @@
 .homeBlip{
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #DB4701;
 }
 .imageHomeBlip{
   object-fit: cover;
