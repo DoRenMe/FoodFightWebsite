@@ -5,6 +5,7 @@
   
 <style>
 .quiz{
+    width: 64%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
