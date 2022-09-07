@@ -18,11 +18,12 @@
   font-size: 35px;
 }
 .ingredientsList{
-  font-size:35px;
+  font-size: 27px;
   margin-left: 20px;
 }
 
 .warning{
+  background-color:#FF882D;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   margin: 0px;
@@ -39,28 +40,29 @@
   margin-left: 4%;
   margin-right: auto;
 }
-
 -----------------------------------------------------------------------------
-<!--Ingredient box-->
 <table class="ingredientsTable">
     <tr>
         <td>
             <p class="ingredients"><B>Ingredients</B></p><br>
             <table class="ingredientBal">
-                <td><h2 class="ingredientsList">- 1 cup of milk<br>
-                  - 1 cup of milk<br>
-                  - 1 cup of milk<br>
-                  - 1 cup of milk</h2></td>
+                <td><input type="checkbox">
+                <label class="ingredientsList">ingrediant1</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingrediant2</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingrediant3</label></td>
                 
-                <td><br>
-                  <h2 class="ingredientsList">- 1 cup of milk<br>
-                  - 1 cup of milk<br>
-                  - 1 cup of milk<br>
-                  - 1 cup of milk</h2></td>
+                <td><input type="checkbox">
+                <label class="ingredientsList">ingrediant1</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingrediant2</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingrediant3</label></td>
             </table><br>
         </td>
     </tr>
     <tr>
-        <td style="border-top:2px #FF882D solid;"><p class="warningText"><b>Warning</b></p><p class="warningText">There is <b>Gluten</b> and <b>dairy</b> in this recipe.</p></td>
+        <td class="warning"><p class="warningText"><b>Warning</b></p><p class="warningText">There is <b>Gluten</b> and <b>dairy</b> in this recipe.</p></td>
     </tr>
 </table>
