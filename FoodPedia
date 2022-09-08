@@ -1,2 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
 
-code
+<head>
+<title>Foodfighters - Foodpedia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="test3.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+
+<body>
+<!--Navigation links-->
+<div id="navbar">
+  <img src="Assets/log2.png" class="logo">
+  <h6 class="LogoBar" href="home">Food Fight</h6>
+  <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
+  <div class="dropdown">
+    <a class="navlink" href="Foodenviro.html"><span id="NavCon" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <div class="dropdown-content">
+      <a href="Foodenviro.html">Economy</a>
+      <a href="Foodenviro.html">Environment</a>
+      <a href="Foodenviro.html">Expiry dates</a>
+    </div>
+  </div> 
+  <a class="navlink" href="FoodPedia.html"><span id="NavCon"  class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span id="NavCon"  class="material-symbols-sharp">cooking</span><br>Recipes</a>
+</div>
+
+<!--Navigation Javascript-->
+<script>
+window.onscroll = function() {NavFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function NavFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!--Back to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!--Back to top button Javascript-->
+<script>
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!--Header-->
+<div class="headerNav">
+  <h2>Foodpedia</h2>
+  <p>The place to find your food storage needs. Food is sorted from A-Z in rows</p>
+</div>
+
+<!--Foodpedia table IMPORTANT-->
+<table class="popularSearch">
+  <tr class="topPop">
+      <th class="topPop" colspan="4">Popular</th>
+  </tr>
+  <tr>
+    <td class="popular"><a href="Foodinfo.html">Apple</a></td>
+    <td class="popular"><a href="Foodinfo.html">Tomato</a></td>
+    <td class="popular"><a href="Foodinfo.html">Milk</a></td>
+    <td class="popular"><a href="Foodinfo.html">Pork</a></td>
+  </tr>
+  <tr>
+    <td class="popular"><a href="Foodinfo.html">Banana</a></td>
+    <td class="popular"><a href="Foodinfo.html">Carrot</a></td>
+    <td class="popular"><a href="Foodinfo.html">Cream</a></td>
+    <td class="popular"><a href="Foodinfo.html">Chicken</a></td>
+  </tr>
+  <tr>
+    <td class="popular"><a href="Foodinfo.html">Orange</a></td>
+    <td class="popular"><a href="Foodinfo.html">Lettuce</a></td>
+    <td class="popular"><a href="Foodinfo.html">Yogurt</a></td>
+    <td class="popular"><a href="Foodinfo.html">Fish</a></td>
+  </tr>
+  <tr>
+    <td class="popular"><a href="Foodinfo.html">Avocado</a></td>
+    <td class="popular"><a href="Foodinfo.html">Onion</a></td>
+    <td class="popular"><a href="Foodinfo.html">Cheese</a></td>
+    <td class="popular"><a href="Foodinfo.html">Beef</a></td>
+  </tr>
+  </table>
+  <br>
+
+<!--Foodpedia - Food items -->
+<div class="grid-container">
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Apple</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Asparagus</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Banana</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Meat</p><p class="foodCardTitle">Beef</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Carrot</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Meat</p><p class="foodCardTitle">Chicken (poultry)</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Eggplant</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Meat</p><p class="foodCardTitle">Fish</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Lemons</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Mango</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Oranges</p></a>
+  </div>
+  <div class="grid-item">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+      <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Strawberry</p></a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+<!--Footer with links-->
+<Footer>
+<table class="footerT">
+  <tr>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Resources</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Foodpedia</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Popular</th>
+    <th rowspan="5"></th><br></th>
+    <th rowspan="5"><br></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th class="footerth">About us</th>
+  </tr>
+  <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Environment</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Apple</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Expiry dates</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="mailto:18112@my.westlakegirls.school.nz?subject=Website message">Email</a></td>
+  </tr>
+  <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Economy</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Bread</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Storage details</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Message</a></td>
+  </tr>
+  <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Money</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Banana</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Tips and Tricks</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Phone</a></td>
+  </tr>
+  <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Change</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
+    <td>
+      <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
+      <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
+      <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+  </tr>
+</table>
+<br>
+</Footer>
+
+<!--Lower Copyright footer-->
+<Footer class="copyright">
+  <p><b>Food Fighters © Lauren Dorrell All Rights Reserved</b></p>
+</Footer>
+
+</body>
+
+</html>
