@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Foodfighters - Environment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+
+<body>
+<!--Navigation links-->
+<div id="navbar">
+  <img src="Assets/log2.png" Alt="Food Fight Logo" class="logo">
+  <h6 class="LogoBar" href="home">Food Fight</h6>
+  <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
+  <div class="dropdown">
+    <a class="navlink" href="Foodenviro.html"><span id="NavCon" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <div class="dropdown-content">
+      <a href="Placeholder.html">Economy</a>
+      <a href="Foodenviro.html">Environment</a>
+      <a href="Placeholder.html">Expiry dates</a>
+    </div>
+  </div> 
+  <a class="navlink" href="FoodPedia.html"><span id="NavCon"  class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span id="NavCon"  class="material-symbols-sharp">cooking</span><br>Recipes</a>
+</div>
+
+<!--Navigation Javascript-->
+<script>
+window.onscroll = function() {NavFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function NavFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!--Back to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span Style='font-size:18px;' class="material-symbols-sharp">
+  arrow_upward</span>Top</button>
+
+<!--Back to top button Javascript-->
+<script>
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!--Header-->
+<div class="headerNav">
+  <h2>Environment</h2>
+</div>
+<br>
+
+<!--Page Pathway-->
+ <p class="locationPath">Resources / Environment</p>
+
+<!--Placeholder to test footer-->
+<div id="text">
+    <div class="help"><img Alt="Rubbish dump littered with food" class="imgAdjust" src="https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?cs=srgb&dl=pexels-pixabay-221012.jpg&fm=jpg">
+      <p style="margin-left:0; margin-right:0px;" class="creditText">This is an image produced by <a style="color:#DB4701" href="https://www.pexels.com/photo/air-air-pollution-climate-change-dawn-221012/">Pixabay</a></p>
+  </div>
+
+  <p class="InfoBlurb"> Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time.</p>
+</div>
+
+<!--Collapsible box for content-->
+<br>
+<button type="button" class="collapsible"><div class="collapseTitle"><b>Plant life</b></div><br></button>
+<div class="content">
+  <div class="CWords">
+  <p class="boxPadding">Lorem ipsum erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+  </div>
+</div>
+<br>
+
+<!--quiz-->
+<div class="quiz">
+  <iframe name='proprofs' id='proprofs' width='100%' height='100%' frameborder=0 marginwidth=0 marginheight=0 src='https://www.proprofs.com/quiz-school/ugc/story.php?title=food-waste_93o&id=3475477&ew=430'>
+  </iframe></div>
+
+  <br>
+
+<style>
+.quiz{
+    width: 64%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px #FF882D solid;
+}
+</style>
+
+
+<!--Related content bar-->
+<table class="relatedContentBar">
+<tr>
+  <th class="topPop" colspan="4">Related content</th>
+</tr>
+<tr>
+  <td class="relatedBarAll"><a class="relatedLink" href="Placeholder.html"><img class="RelatedIMG" Alt="Image of piggy bank" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <p class="relatedBarTitle">Economy</p><p class="relatedBarText">other text</p></a>
+  </td>
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img class="RelatedIMG" Alt="Image of rotting food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <p class="relatedBarTitle">Expiry dates</p><p class="relatedBarText"> other text</p></a>
+  </td>
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img class="RelatedIMG" Alt="Image of fridge" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <p class="relatedBarTitle">Tips</p><p class="relatedBarText"> other text</p></a>
+  </td>
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img class="RelatedIMG" Alt="Image of hands shaking" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <p class="relatedBarTitle">Change</p><p class="relatedBarText"> other text</p></a>
+  </td>
+</tr>
+</table>
+<br>
+
+<!--collapsible box Javascript-->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<!--Footer with links-->
+<Footer>
+<table class="footerT">
+  <tr>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Resources</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Foodpedia</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Popular</th>
+    <th rowspan="5"></th><br></th>
+    <th rowspan="5"><br></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" Alt="Line divider" height="115px"></th>
+    <th class="footerth">About us</th>
+  </tr>
+  <tr>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Environment</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Apple</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Expiry dates</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="mailto:18112@my.westlakegirls.school.nz?subject=Website message">Email</a></td>
+  </tr>
+  <tr>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Economy</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Bread</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Storage details</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Message</a></td>
+  </tr>
+  <tr>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Money</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Banana</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Tips and Tricks</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Phone</a></td>
+  </tr>
+  <tr>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Change</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Placeholder.html">Bonus</a></td>
+    <td>
+      <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+      <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+      <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
+  </tr>
+</table>
+<br>
+</Footer>
+
+<!--Lower Copyright footer-->
+<Footer class="copyright">
+  <p><b>Food Fighters © Lauren Dorrell All Rights Reserved</b></p>
+</Footer>
+
+</body>
+
+</html>
