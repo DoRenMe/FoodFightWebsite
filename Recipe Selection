@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<title>Foodfighters</title>
+<title>Foodfighters - Recipes</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="test3.css" rel="stylesheet">
@@ -15,10 +14,17 @@
 <div id="navbar">
   <img src="Assets/log2.png" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
-  <a class="navlink" href="index.html"><span style="color:#617B38" class="material-symbols-sharp">home</span><br>Home</a>
-  <a class="navlink" href="Foodinfo.html"><span style="color:#617B38" class="material-symbols-sharp">menu_book</span><br>Resources</a>
-  <a class="navlink" href="FoodPedia.html"><span style="color:#617B38" class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
-  <a class="navlink" href="RecipeSearch.html"><span style="color:#617B38" class="material-symbols-sharp">restaurant</span><br>Recipes</a>
+  <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
+  <div class="dropdown">
+    <a class="navlink" href="Foodenviro.html"><span id="NavCon" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <div class="dropdown-content">
+      <a href="Foodenviro.html">Economy</a>
+      <a href="Foodenviro.html">Environment</a>
+      <a href="Foodenviro.html">Expiry dates</a>
+    </div>
+  </div> 
+  <a class="navlink" href="FoodPedia.html"><span id="NavCon"  class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span id="NavCon"  class="material-symbols-sharp">cooking</span><br>Recipes</a>
 </div>
 
 <!--Navigation Javascript-->
@@ -129,7 +135,7 @@ function topFunction() {
 <!--Footer with links-->
 <Footer>
 <table class="footerT">
-  <tr>
+    <tr>
     <th rowspan="5"><br></th>
     <th class="footerth">Resources</th>
     <th rowspan="5"><br></th>
@@ -140,34 +146,34 @@ function topFunction() {
     <th rowspan="5"><br></th>
     <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
     <th class="footerth">About us</th>
-  </tr>
-  <tr id="footerLinks">
+    </tr>
+    <tr id="footerLinks">
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Environment</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Apple</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Expiry dates</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Apple</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Expiry dates</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="mailto:18112@my.westlakegirls.school.nz?subject=Website message">Email</a></td>
-  </tr>
-  <tr id="footerLinks">
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Economy</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Bread</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Storage details</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Message</a></td>
-  </tr>
-  <tr id="footerLinks">
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Money</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Banana</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Tips and Tricks</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Phone</a></td>
-  </tr>
-  <tr id="footerLinks">
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Change</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Meats</a></td>
-    <td class="footerSpacer"><a id="footerLinks" target="blank" href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Bonus</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Economy</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Bread</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Storage details</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Message</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Money</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Banana</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Tips and Tricks</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Phone</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Change</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-      <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-      <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-      <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
-  </tr>
+        <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
+        <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
+        <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+    </tr>
 </table>
 <br>
 </Footer>
