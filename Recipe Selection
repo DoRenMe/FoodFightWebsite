@@ -12,7 +12,7 @@
 <body>
 <!--Navigation links-->
 <div id="navbar">
-  <img src="Assets/log2.png" class="logo">
+  <img Alt="Food Fight Logo" src="Assets/log2.png" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
   <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
@@ -71,27 +71,27 @@ function topFunction() {
 <!--Foodpedia - Food items -->
 <div class="grid-container">
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Curry</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Pizza</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Mac N' Cheese</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Risotto</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Fried rice</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="max-width:100%;">
       <p class="foodCardTitle">Omelette</p></a>
   </div>
   </div>
@@ -104,27 +104,27 @@ function topFunction() {
 <br>
 <div class="grid-container">
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Roast eggplant</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Cauliflower bake</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Vegatable stir fry</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Coslaw</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Falafel</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Recipe.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Recipe.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardTitle">Vegatable Stew</p></a>
   </div>
 </div>
@@ -144,7 +144,7 @@ function topFunction() {
     <th class="footerth">Popular</th>
     <th rowspan="5"></th><br></th>
     <th rowspan="5"><br></th>
-    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" Alt="Line divider" height="115px"></th>
     <th class="footerth">About us</th>
     </tr>
     <tr id="footerLinks">
@@ -170,9 +170,9 @@ function topFunction() {
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-        <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-        <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-        <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+        <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+        <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+        <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
     </tr>
 </table>
 <br>
