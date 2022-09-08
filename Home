@@ -12,7 +12,7 @@
 <body>
 <!--Navigation links-->
 <div id="navbar">
-  <img src="Assets/log2.png" class="logo">
+  <img src="Assets/log2.png" Alt="Food Fight Logo" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
   <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
@@ -43,7 +43,7 @@ function NavFunction() {
 
 <!--banner - block or flex-->
 <div class="container">
-  <img src="Assets/Banner.png" style="width:100%">
+  <img Alt="White bench with peaches" src="Assets/Banner.png" style="width:100%">
   <h1 class="banTextTitle">About $1.17 billion of food is wasted each year</h1>
   <p class="banText"> Hi! Welcome to Food Fight. We are ready to go into battle on the war on food waste. Will you join us?</p>
   <button class="btn" onclick=window.location.href="Foodenviro.html">Learn more</button>
@@ -191,17 +191,17 @@ function topFunction() {
 <!--3 Lower Panels-->
 <div class="grid-container2" width="100%">
   <div class="grid-item2">
-    <img class="imageHomeBlip" src="Assets/banner.png" width="100%" height="170px">
+    <img class="imageHomeBlip" Alt="White bench with peaches" src="Assets/banner.png" width="100%" height="170px">
     <p class="homeBlip">Want to learn more about food waste? Take our food waste quiz here!</p>
     <button class="ButtonBlip" onclick=window.location.href="Foodenviro.html">Learn more</button>
   </div>
   <div class="grid-item2">
-    <img class="imageHomeBlip" src="Assets/Banner.png" width="100%" height="170px">
+    <img class="imageHomeBlip" Alt="White bench with peaches" src="Assets/Banner.png" width="100%" height="170px">
     <p class="homeBlip">Food waste can cause you to lose up to thousands of dollars. </p>
     <button class="ButtonBlip" onclick=window.location.href="Foodenviro.html">Learn more</button>
   </div>
   <div class="grid-item2">
-    <img class="imageHomeBlip" src="Assets/Banner.png" width="100%" height="170px">
+    <img class="imageHomeBlip" Alt="White bench with peaches" src="Assets/Banner.png" width="100%" height="170px">
     <p class="homeBlip">Just left home? find out how to keep your food fresh and save money here!</p>
     <button class="ButtonBlip" onclick=window.location.href="Foodenviro.html">Learn more</button>
   </div>
@@ -219,7 +219,7 @@ function topFunction() {
     <th class="footerth">Popular</th>
     <th rowspan="5"></th><br></th>
     <th rowspan="5"><br></th>
-    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th rowspan="5"><br><img Alt="Line divider" src="Assets/Line.png" height="115px"></th>
     <th class="footerth">About us</th>
   </tr>
   <tr id="footerLinks">
@@ -245,9 +245,9 @@ function topFunction() {
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-      <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-      <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-      <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+      <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+      <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+      <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
   </tr>
 </table>
 <br>
@@ -255,7 +255,7 @@ function topFunction() {
 
 <!--Lower Copyright footer-->
 <Footer class="copyright">
-  <p class="creditText">Banner image was produced by Karolina Grabowska</p>
+  <p class="creditText">Banner image was produced by <a style="color:white" target="blank" href="https://www.pexels.com/@karolina-grabowska/">Karolina Grabowska</a></p>
   <p><b>Food Fighters © Lauren Dorrell All Rights Reserved</b></p>
 </Footer>
 
