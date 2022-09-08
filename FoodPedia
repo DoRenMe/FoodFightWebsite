@@ -12,7 +12,7 @@
 <body>
 <!--Navigation links-->
 <div id="navbar">
-  <img src="Assets/log2.png" class="logo">
+  <img src="Assets/log2.png" Alt="Food Fight Logo" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
   <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
@@ -103,51 +103,51 @@ function topFunction() {
 <!--Foodpedia - Food items -->
 <div class="grid-container">
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Apple</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Asparagus</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Banana</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Meat</p><p class="foodCardTitle">Beef</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Carrot</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Meat</p><p class="foodCardTitle">Chicken (poultry)</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Vegetable</p><p class="foodCardTitle">Eggplant</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Meat</p><p class="foodCardTitle">Fish</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Lemons</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Mango</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Oranges</p></a>
   </div>
   <div class="grid-item">
-    <a class="foodItem" href="Foodinfo.html" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
+    <a class="foodItem" href="Foodinfo.html" target="blank"><img Alt="Image of food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="max-width:100%;">
       <p class="foodCardCata">Fruit</p><p class="foodCardTitle">Strawberry</p></a>
   </div>
 </div>
@@ -167,7 +167,7 @@ function topFunction() {
     <th class="footerth">Popular</th>
     <th rowspan="5"></th><br></th>
     <th rowspan="5"><br></th>
-    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th rowspan="5"><br><img Alt="Line divider" src="Assets/Line.png" height="115px"></th>
     <th class="footerth">About us</th>
   </tr>
   <tr id="footerLinks">
@@ -193,9 +193,9 @@ function topFunction() {
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-      <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-      <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-      <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+      <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+      <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+      <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
   </tr>
 </table>
 <br>
