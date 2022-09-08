@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<title>Foodfighters - Pizza</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="test3.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+
+<body>
+<!--Navigation links-->
+<div id="navbar">
+  <img src="Assets/log2.png" class="logo">
+  <h6 class="LogoBar" href="home">Food Fight</h6>
+  <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
+  <div class="dropdown">
+    <a class="navlink" href="Foodenviro.html"><span id="NavCon" class="material-symbols-sharp">menu_book</span><br>Resources</a>
+    <div class="dropdown-content">
+      <a href="Foodenviro.html">Economy</a>
+      <a href="Foodenviro.html">Environment</a>
+      <a href="Foodenviro.html">Expiry dates</a>
+    </div>
+  </div> 
+  <a class="navlink" href="FoodPedia.html"><span id="NavCon"  class="material-symbols-sharp">restaurant</span><br>Foodpedia</a>
+  <a class="navlink" href="RecipeSearch.html"><span id="NavCon"  class="material-symbols-sharp">cooking</span><br>Recipes</a>
+</div>
+
+<!--Navigation Javascript-->
+<script>
+window.onscroll = function() {NavFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function NavFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!--Back to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--Back to top button Javascript-->
+<script>
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!--Header-->
+<div class="headerNav">
+  <h2>Pizza</h2>
+</div>
+<br>
+
+<!--Page Pathway-->
+ <p class="locationPath">Recipes / Pizza</p>
+
+<!--Placeholder to test footer-->
+<div id="text">
+  <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="width:100%; margin-left: auto; margin-right: auto; display: block;">
+  <p class="creditText">This is an image produced by Mark Vincent Dorrell</p>
+  <p class="foodBlurb"> This is a recipe for a classic pizza that you can easily make at home. You can add and customize the topping as much as you like.</p>
+</div>
+
+<!--Ingredient box-->
+<table class="ingredientsTable">
+    <tr>
+        <td>
+            <p class="ingredients"><B>Ingredients</B></p><br>
+            <table class="ingredientBal">
+                <td><input type="checkbox">
+                <label class="ingredientsList">ingredient1</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingredient2</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingredient3</label></td>
+                
+                <td><input type="checkbox">
+                <label class="ingredientsList">ingredient1</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingredient2</label><br>
+                <input type="checkbox">
+                <label class="ingredientsList">ingredient3</label></td>
+            </table><br>
+        </td>
+    </tr>
+    <tr>
+        <td class="warning"><p class="warningText"><b>Warning</b></p><p class="warningText">There is <b>Gluten</b> and <b>dairy</b> in this recipe.</p></td>
+    </tr>
+</table>
+
+<br>
+<h2 class="StepsTitle">Steps</h2>
+<p id="text">
+    1. Mix the sugar, hot water and yeast together in a bowl and leave to sit for 10 minutes 
+    <br><br>
+    2. Add your flour, salt and baking powder together in a bowl and pour in your yeast mixture.
+    <br><br>
+    3. place an excess amount of flour onto the surface your working on and begin to kneed the dough for about 5-10 minutes until it reaches soft but non-sticky consistency.
+    <br><br>
+    4. Grab the baking tray that you're using and line it with baking paper.  Set your oven to 180 degrees celcius. Place some flour and try to spread the dough into a circular shape. This will become your pizza base. When it reaches the radius you want, you can start to add toppings.
+    <br><br>
+    5. Add your tomato sauce and spread it across the majority of dough except for about a centimeter from the edge. This will be your crust.
+    <br><br>
+    6. Add every other topping you would like to have to your pizza and place it into the oven for 15 minutes.
+    <br><br>
+    7. You should now have a delicious pizza ready to eat!
+</p>
+<br>
+<br>
+
+<!--Footer with links-->
+<Footer>
+<table class="footerT">
+    <tr>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Resources</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Foodpedia</th>
+    <th rowspan="5"><br></th>
+    <th class="footerth">Popular</th>
+    <th rowspan="5"></th><br></th>
+    <th rowspan="5"><br></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th class="footerth">About us</th>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Environment</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Apple</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Expiry dates</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="mailto:18112@my.westlakegirls.school.nz?subject=Website message">Email</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Economy</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Bread</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Storage details</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Message</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Money</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Banana</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Tips and Tricks</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Phone</a></td>
+    </tr>
+    <tr id="footerLinks">
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Change</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
+    <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
+    <td>
+        <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
+        <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
+        <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+    </tr>
+</table>
+<br>
+</Footer>
+
+<!--Lower Copyright footer-->
+<Footer class="copyright">
+  <p><b>Food Fighters © Lauren Dorrell All Rights Reserved</b></p>
+</Footer>
+
+</body>
+
+</html>
