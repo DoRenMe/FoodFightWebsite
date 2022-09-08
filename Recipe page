@@ -12,7 +12,7 @@
 <body>
 <!--Navigation links-->
 <div id="navbar">
-  <img src="Assets/log2.png" class="logo">
+  <img src="Assets/log2.png" Alt="Food Fight Logo" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
   <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
@@ -72,8 +72,11 @@ function topFunction() {
 
 <!--Placeholder to test footer-->
 <div id="text">
-  <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="width:100%; margin-left: auto; margin-right: auto; display: block;">
-  <p class="creditText">This is an image produced by Mark Vincent Dorrell</p>
+  <img Alt="Pizza" src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" style="width:100%; margin-left: auto; margin-right: auto; display: block;">
+  <p style="margin-left:0; margin-right:0px;" class="creditText">This is an image produced by <a style="color:#DB4701" href="https://www.pexels.com/photo/pepperoni-pizza-803290/">Beqa Tefnadze</a></p>
+  <p class="DifficultyTitle"><b>Easiness: </b><span id="Difficulty" class="material-symbols-sharp">grade</span>
+      <span id="Difficulty" class="material-symbols-sharp">grade</span>
+      <span id="Difficulty" class="material-symbols-sharp">grade</span></p>
   <p class="foodBlurb"> This is a recipe for a classic pizza that you can easily make at home. You can add and customize the topping as much as you like.</p>
 </div>
 
@@ -136,7 +139,7 @@ function topFunction() {
     <th class="footerth">Popular</th>
     <th rowspan="5"></th><br></th>
     <th rowspan="5"><br></th>
-    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" Alt="Line divider" height="115px"></th>
     <th class="footerth">About us</th>
     </tr>
     <tr id="footerLinks">
@@ -162,9 +165,9 @@ function topFunction() {
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-        <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-        <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-        <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+        <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+        <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+        <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
     </tr>
 </table>
 <br>
