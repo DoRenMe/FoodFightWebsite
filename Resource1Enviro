@@ -12,7 +12,7 @@
 <body>
 <!--Navigation links-->
 <div id="navbar">
-  <img src="Assets/log2.png" class="logo">
+  <img src="Assets/log2.png" Alt="Food Fight Logo" class="logo">
   <h6 class="LogoBar" href="home">Food Fight</h6>
   <a class="navlink" href="index.html"><span id="NavCon" class="material-symbols-sharp">home</span><br>Home</a>
   <div class="dropdown">
@@ -72,8 +72,8 @@ function topFunction() {
 
 <!--Placeholder to test footer-->
 <div id="text">
-    <div class="help"><img class="imgAdjust" src="https://images.pexels.com/photos/277262/pexels-photo-277262.jpeg?cs=srgb&dl=pexels-pixabay-277262.jpg&fm=jpg">
-    <p class="creditText" style="margin-left:0; margin-right: 0;">This is an image produced by Mark Vincent Dorrell</p>
+    <div class="help"><img Alt="Rubbish dump littered with food" class="imgAdjust" src="https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?cs=srgb&dl=pexels-pixabay-221012.jpg&fm=jpg">
+      <p style="margin-left:0; margin-right:0px;" class="creditText">This is an image produced by <a style="color:#DB4701" href="https://www.pexels.com/photo/air-air-pollution-climate-change-dawn-221012/">Pixabay</a></p>
   </div>
 
   <p class="InfoBlurb"> Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. Hi! Welcome to food fighters. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time. We are ready to go into battle on the war on food waste. Will you join us? Here's a cool image to gaze at for the mean time.</p>
@@ -113,16 +113,16 @@ function topFunction() {
   <th class="topPop" colspan="4">Related content</th>
 </tr>
 <tr>
-  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img Alt="Image of piggy bank" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
   <p class="relatedBarTitle">Economy</p><p class="relatedBarText">other text</p></a>
   </td>
-  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img Alt="Image of rotting food" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
   <p class="relatedBarTitle">Expiry dates</p><p class="relatedBarText"> other text</p></a>
   </td>
-  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img Alt="Image of fridge" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
   <p class="relatedBarTitle">Tips and Tricks</p><p class="relatedBarText"> other text</p></a>
   </td>
-  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
+  <td class="relatedBarAll"><a class="relatedLink" href="Foodenviro.html"><img Alt="Image of hands shaking" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%;">
   <p class="relatedBarTitle">Change</p><p class="relatedBarText"> other text</p></a>
   </td>
 </tr>
@@ -159,7 +159,7 @@ for (i = 0; i < coll.length; i++) {
     <th class="footerth">Popular</th>
     <th rowspan="5"></th><br></th>
     <th rowspan="5"><br></th>
-    <th rowspan="5"><br><img src="Assets/Line.png" height="115px"></th>
+    <th rowspan="5"><br><img src="Assets/Line.png" Alt="Line divider" height="115px"></th>
     <th class="footerth">About us</th>
   </tr>
   <tr id="footerLinks">
@@ -185,9 +185,9 @@ for (i = 0; i < coll.length; i++) {
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodinfo.html">Meats</a></td>
     <td class="footerSpacer"><a id="footerLinks" target="blank" href="Foodenviro.html">Bonus</a></td>
     <td>
-      <a href="https://www.instagram.com/" class="socialIcons"><img src="Assets/InstagramIcon.png" height="32px"></a>
-      <a href="https://www.facebook.com/" class="socialIcons"><img src="Assets/FacebookIcon.png" height="32px"></a>
-      <a href="https://www.twitter.com/" class="socialIcons"><img src="Assets/TwitterIcon.png" height="32px"></a></td>
+      <a href="https://www.instagram.com/" class="socialIcons"><img Alt="Instagram icon" src="Assets/InstagramIcon.png" height="32px"></a>
+      <a href="https://www.facebook.com/" class="socialIcons"><img Alt="Facebook icon" src="Assets/FacebookIcon.png" height="32px"></a>
+      <a href="https://www.twitter.com/" class="socialIcons"><img Alt="Twitter icon" src="Assets/TwitterIcon.png" height="32px"></a></td>
   </tr>
 </table>
 <br>
